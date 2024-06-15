@@ -137,7 +137,7 @@ input:focus {
 }
 
 .todo-list__task-item {
-    padding: 0.6rem 0;
+    padding: 0.6rem;
     border-bottom: 1px solid #ddd;
     display: flex;
     justify-content: space-between;
@@ -161,8 +161,8 @@ input:focus {
 .todo-list__checkbox {
     margin-right: 1rem;
     cursor: pointer;
-    width: 1rem;
-    height: 1rem;
+    width: 1.2rem;
+    height: 1.2rem;
 }
 
 /* Error message styles */
@@ -170,4 +170,10 @@ input:focus {
     color: var(--error-color);
     margin-top: 0.5rem;
     font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .todo-list__btn-remove {
+        flex: 0 0 80px;
+    }
 }
