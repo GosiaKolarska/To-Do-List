@@ -11,5 +11,4 @@ A simple, accessible to-do list application built with HTML, CSS, and JavaScript
 - Designed to be accessible and user-friendly, meeting WCAG Level AA criteria
 
 **Technologies Used:**
-
 HTML5, CSS3, JavaScript
