@@ -3,7 +3,7 @@
 A simple, accessible to-do list application built with HTML, CSS, and JavaScript.
 
 ## Live Demo
-Check out the live demo of the application To-Do-List(https://gosiakolarska.github.io/To-Do-List/)
+Check out the live demo of the application [To-Do List](https://gosiakolarska.github.io/To-Do-List/)
 
 ## Features
 - Easily add new tasks to your to-do list
