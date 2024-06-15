@@ -33,7 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Function to add a task to the list
     function addTask(taskText, isCompleted = false) {
-        const taskId = `task-${Date.now()}`;
+        const taskId = `task-${Date.now()}-${Math.random()
+          .toString(36)
+          .substring(2, 11)}`;
 
         const taskListItem = document.createElement('li');
         taskListItem.classList.add('todo-list__task-item');
@@ -61,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Create & configure the remove button
         const removeButton = document.createElement('button');
         removeButton.textContent = 'Remove task';
-        removeButton.classList.add('todo-list__btn-remove');
+        removeButton.classList.add("todo-list__btn-remove", "todo-list__btn");
         removeButton.setAttribute('aria-label', 'Remove task');
         removeButton.addEventListener('click', () => {
             taskListItem.remove();
